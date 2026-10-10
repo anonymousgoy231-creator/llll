@@ -37,6 +37,8 @@ jobs:
 
     - name: Build for Linux
       if: matrix.os == 'ubuntu-latest'
+      env:
+        APPIMAGE_EXTRACT_AND_RUN: 1
       run: npx electron-builder --linux
 
     - name: Upload Artifacts
