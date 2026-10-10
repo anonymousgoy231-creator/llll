@@ -1,0 +1,27 @@
+{
+  "name": "strativus",
+  "version": "1.0.0",
+  "description": "Desktop app for Strativus",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "net.strativus.app",
+    "productName": "Strativus",
+    "mac": {
+      "target": ["dmg"]
+    },
+    "win": {
+      "target": ["nsis"]
+    },
+    "linux": {
+      "target": ["AppImage", "deb"]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+dist-mac/
+dist-linux/
+dist-win/
+.env
+.DS_Store
