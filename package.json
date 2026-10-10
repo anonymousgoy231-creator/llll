@@ -22,7 +22,7 @@
       "target": ["nsis"]
     },
     "linux": {
-      "target": ["AppImage", "deb"]
+      "target": ["deb", "tar.gz"]
     }
   }
 }
