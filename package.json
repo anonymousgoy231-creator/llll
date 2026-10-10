@@ -2,6 +2,7 @@
   "name": "strativus",
   "version": "1.0.0",
   "description": "Desktop app for Strativus",
+  "author": "Strativus Developer",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
